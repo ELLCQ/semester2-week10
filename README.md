@@ -1,1 +1,3 @@
-# Week 10: Benchmarks, Optimization & Profiling
+# Week 10
+
+## Session 1: Benchmarks, Optimization & Profiling

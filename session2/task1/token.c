@@ -8,6 +8,11 @@ int main( void ) {
 
     // call strtok() repeatedly to tokenise the string on whitespace " "
     // print out each token 
-    
+    char *token = strtok(buffer, " ");
+    while (token){
+        puts(token);
+        token = strtok(NULL, " ");
+    }
+
     return 0;
 }
